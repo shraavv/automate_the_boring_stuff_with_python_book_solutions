@@ -1,0 +1,28 @@
+Answers
+
+1. *,-,/,+ are operators and 'hello',-88.8 and 5 are values.
+
+2. spam is a variable name whereas 'spam' is a string.
+
+3. string,floating point numbers and integers.
+
+4. An expression is a programming instruction in the language, it consists of values and operators. 
+   It evaluates the values and returns a single value.
+
+5. A statement is bascially used for assigning variables or printing them whereas an expression evaluates multiple values and returns a single value.
+
+6. The variable bacon will be equal to 21.
+
+7. 'spam' + 'spamspam' gives 'spamspamspam'
+   'spam' * 3 gives 'spamspamspam'
+
+8. 100 is an invalid variable name as variable cannot start with numbers.
+   Variable name can start only with '_' or alphabets. 
+
+9. To get string value we have to use str()
+   To get floating point number we have to use float()
+   To get integer number we have to use int()
+
+10. Since 99 is an integer, we cannot concatenate string and a integer.
+    To fix this error, if we change the data type of 99 to string we can fix this error.
+    'I have eaten' + str(99) + 'burritos.'

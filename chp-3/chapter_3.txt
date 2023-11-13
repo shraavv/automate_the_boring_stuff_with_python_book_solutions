@@ -1,0 +1,31 @@
+Answers
+
+1. Functions make our codes more efficient and shorter.
+   It reduces duplication of code.
+
+2. The code in function is only executed when the function is called.
+
+3. def keyword
+
+4. function is a block of code that performs a specific task whereas function call is an expression to execute a function.
+
+5. There is only one global scope in an execution whereas local scope is created whenever a function is defined in a program.
+
+6. Once the function is executed fully the local variables are destroyed i.e they no longer exist.
+
+7. It is a value that a function call evaluates to and it can be used as a part of an expression.
+
+8. None value is assigned.
+
+9. By using the global keyword we can change the value of a global variable locally.
+
+10. NoneType data type 
+
+11. It is used to import a user-defined function present from another file and thereafter we can use that function anywhere in the program.
+
+12. spam.bacon()
+
+13. We can prevent errors by using try and except method.
+
+14. All the statements to be executed are written under try clause whereas when there is an error exception, the code to be executed is written under except clause.
+    except clause is used to handle errors encountered in try clause.

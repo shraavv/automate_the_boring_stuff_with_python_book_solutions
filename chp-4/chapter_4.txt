@@ -1,0 +1,37 @@
+Answers 
+
+1. [], these are square brackets that help us declare a list data type.
+
+2. spam[2]='hello'
+
+3. 'd'
+
+4. 'd'
+
+5. ['a','b']
+
+6. 1
+
+7. [3.14, 'cat', 11, 'cat', True, 99]
+
+8. [3.14, 11, 'cat', True, 99]
+
+9. For list concatenation '+' is used and for list replication '*' is used.
+
+10. append() adds the element to the end of the list whereas insert() adds the element to a specified index.
+
+11. del() and remove()
+
+12. Both lists and strings are a ordered collection of characters. They have common functions such as len(). 
+    We can concatenate and replicate a string as well as a list.
+
+13. Lists are mutable (can be modified) whereas tuples are immutable(cannot be modified).
+
+14. (42,)
+
+15. We can convert a list to a tuple using tuple() and a tuple to a list using list()
+
+16. They contain reference to list values.
+
+17. copy.copy() - known as shallow copy, this is not completely independent of the original object 
+    copy.deepcopy() - This is completely independent of the original object

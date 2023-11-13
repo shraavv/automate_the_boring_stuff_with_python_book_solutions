@@ -1,0 +1,99 @@
+Answers
+
+1. The two boolean values are True(1) and False(0).
+   The 'T' and 'F' are always supposed to be in uppercase.
+
+2. not, and, or
+
+3.  and operator 
+    
+    |   A   |   B   |   A and B   |
+    |   1   |   1   |      1      |
+    |   1   |   0   |      0      |
+    |   0   |   1   |      0      |
+    |   0   |   0   |      0      |
+    
+    or operator
+
+    |   A   |   B   |   A or B    |
+    |   1   |   1   |     1       |
+    |   1   |   0   |     1       |
+    |   0   |   1   |     1       |
+    |   0   |   0   |     0       |
+
+    not operator
+
+    |   A   |    not A    |
+    |   1   |      0      |
+    |   0   |      1      |
+
+4. (5>4) and (3==5) 
+   False
+
+   not (5>4)
+   False
+
+   (5>4) or (3==5)
+   True
+
+   not ((5>4) or (3==5))
+   False
+
+   (True and True) and (True == False)
+   False
+
+   (not False) or (not True)
+   True
+
+5. == (equal to )
+   != (not equal to)
+   < (less than)
+   > (greater than)
+   <= (less than or equal to)
+   >= (greater than or equal to)
+
+6. equal to operator is bascially used to assign a value to a variable whereas assignment operator is used to check if two values are equal or not.
+
+7. Conditions help us in controlling the flow of a program.
+   Conditions can be used in several ways, it is commonly used to check if a particular condition is true and then excecutes the block of code, otherwise it skips it.
+   This is helpful if we have multiple scenarios.
+   Conditional statements include if, elif and else.
+
+8. The first block of code starts from print('eggs')
+   The second block of code is print('bacon')
+   The third block of code is print('ham')
+
+9. spam = int(input("Enter a number: "))
+   if spam == 1:  
+      print("Hello")
+   elif spam == 2:
+      print("Howdy")
+   else:
+      print("Greetings!")
+    
+10. ctrl+c
+
+11. break is used to end/exit the loop in which it is iterating over whereas continue will only skip the current line of iteration.
+
+12. All of these will include the values 0,1,2,3,4,5,6,7,8,9
+    range(10) only the stop value is specified
+    range(0,10) start and stop value is specified
+    range(0,10,1) start stop and step value is specified
+    All of these will print the same output.
+
+13. for loop 
+
+    for i in range(1,11):
+       print(i)
+
+    while loop 
+
+    i=1
+    while i <= 10:
+       print(i)
+       i+=1
+
+14. spam.bacon()
+    
+
+   
