@@ -1,0 +1,31 @@
+Answers
+
+1. assert spam >= 10
+
+2. assert eggs.lower() != bacon.lower()
+
+3. assert False 
+
+4. import logging 
+   logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s -  %(message)s')
+
+5. import logging 
+   logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG, format=' %(asctime)s -  %(levelname)s -  %(message)s')
+
+6. The five logging levels are debug, info, warning, error and crtical.
+
+7. logging.disable(logging.CRITICAL)
+
+8. Once we debug the program and we no longer need print() in order to view the variables, we will have to spend a lot of time in removing the print().
+   In this process we might even accidently delete print() of non log messages. 
+   With logging module, we just have to type one statment in order to disable logging.
+
+9. Step over will execute the function's code in full speed 
+   Step in will stop at the first line of function's code and execute each line of code
+   Step out will execute the function's code at full speed if we get inside the function using the step in and no longer feel the need to execute the each line of code.
+
+10. Continue button will execute the program until it terminates or reached a breakpoint
+
+11. A breakpoint can be set on a specific line of code and forces the debugger to pause whenever the program execution reaches that line.
+
+12. To set a breakpoint, click the line number in the file editor to cause a red dot to appear

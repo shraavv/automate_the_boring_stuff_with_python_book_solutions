@@ -1,0 +1,28 @@
+Answers
+
+1. A relative path describes the location of a file relative to the current working directory.
+
+2. Absolute path always begins with a root folder. 
+
+3. WindowsPath('C:/Users/Al')
+
+4. Error since '/' is not applicable for strings
+
+5. os.getcwd() --> getting the current working directory as a string
+   os.chdir() --> changes the current working directory to a specific path
+
+6. A single period(.) for a folder name is shorthand for "this directory"
+   Two periods(..) means "parent folder"
+
+7. 'C:\bacon\eggs' ---> dir name 
+   'spam.txt' ---> base name
+
+8. 'r' for read only mode 
+   'w' for write mode
+   'a' for append mode 
+
+9. The contents of the file are overwritten when opened in write mode.
+
+10. read() returns strings whereas readlines() returns list of string (one element represents one string)
+
+11. dictionary (array)
