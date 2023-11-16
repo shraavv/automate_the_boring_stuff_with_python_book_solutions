@@ -1,0 +1,59 @@
+Answers
+
+1. re.compile()
+
+2. In general, raw strings considers backslashes as literal characters unlike strings. Therefore, it is used.
+
+3. search() method returns a Match object.
+
+4. By using group()
+
+5. group 0 ---> '\d\d\d-\d\d\d-\d\d\d\d'
+   group 1 ---> '\d\d\d'
+   group 2 ---> '\d\d\d-\d\d\d\d'
+
+6. To use actual parenthesis \( and \)
+   To use actual period \.
+
+7. findall() returns  a list of strings when there are no groups present in the regular expression whereas when groups are present, it returns a list of tuples of strings.
+
+8. | known as pipe and it is used to match one of many expressions.
+
+9. ? character flags the group that precedes it as the optional part of the pattern. It is also used to declare a non-greedy match.
+
+10. The group before the + character should appear atleast once(It is not optional) whereas in the case of * character can be absent or occur any number of times(It is optional).
+
+11. {3} will repeat the group three times. 
+    For example, (Ha){3} is equal to 'HaHaHa'.
+
+    {3,5} will repeat the group three, four and five times.
+    For example, (Ha){3,5} is equal to 'HaHaHa'|'HaHaHaHa'|'HaHaHaHaHa'.
+
+12. \d represents any numeric digit from 0 to 9
+    \w represents any letter, digit and underscore character
+    \s represents any space, tab, newline character
+
+13. \d represents any character other than numeric digit from 0 to 9
+    \w represents any character other than letter, digit and underscore character
+    \s represents any character other than space, tab, newline character
+
+14. .* is used to match anything and everything except for newline character.
+    To match any and all text in non-greedy fashion, we can use .*?
+    (Generally, it is greedy)
+
+15. [a-zA-Z0-9]
+
+16. By passing re.IGNORECASE or re.I as the second argument in re.compile()
+
+17. The . character matches everything except for the newline character. 
+    If we pass re.DOTALL as the second argument in re.compile(), then . character matches everything including the newline character.
+
+18. X drummers, X pipers, five rings, X hens
+
+19. re.VERBOSE() tells the re.compile() to ignore the whitespaces and comments inside a regular expression string.
+
+20. (^\d{1,3}(,\d{3})*$)
+
+21. 
+
+22. regex=re.compile(r'(Alice|Bob|Carol)\s+(eats|pets|throws)\s+(apples|cats|baseballs)\.', re.IGNORECASE)

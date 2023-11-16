@@ -1,0 +1,16 @@
+Answers
+
+1. No, we have to install it using pip.
+
+2. So that we can enter a shorter name while calling a module's function, pyinputplus is longer to type.
+
+3. inputInt() --> accepts input value
+   inputFloat() --> accepts floating point value
+
+4. pyinputplus.inputInt(min=0, max=99)
+
+5. It accepts a list of regular expression strings.
+
+6. It raises RetryLimitException.
+
+7. Instead of raising error, the function returns 'hello'
